@@ -1,0 +1,18 @@
+{
+  "nodes": [
+    {"id": "map_server.server", "path": "map_server/server.py"},
+    {"id": "map_server.ui", "path": "map_server/ui.py"},
+    {"id": "map_server.taskmaster.exporter", "path": "map_server/taskmaster/exporter.py"},
+    {"id": "map_server.analysis.deps", "path": "map_server/analysis/deps.py"},
+    {"id": "map_server.analysis.domain", "path": "map_server/analysis/domain.py"},
+    {"id": "map_server.analysis.blueprint", "path": "map_server/analysis/blueprint.py"},
+    {"id": "map_server.analysis.complexity", "path": "map_server/analysis/complexity.py"},
+    {"id": "map_server.analysis.schemas", "path": "map_server/analysis/schemas.py"},
+    {"id": "map_server.analysis.business_rules", "path": "map_server/analysis/business_rules.py"},
+    {"id": "map_server.analysis.indexer", "path": "map_server/analysis/indexer.py"},
+    {"id": "map_server.analysis.repo", "path": "map_server/analysis/repo.py"},
+    {"id": "map_server.analysis.integrations", "path": "map_server/analysis/integrations.py"},
+    {"id": "map_server.analysis.routes", "path": "map_server/analysis/routes.py"}
+  ],
+  "edges": []
+}

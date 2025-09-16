@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "map-server"
+version = "0.1.0"
+description = "Map Server MCP: legacy codebase analysis and Task Master export"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Your Team" }]
+dependencies = [
+  "fastmcp>=2.12.0",
+  "sqlparse>=0.5.1",
+]
+
+[project.scripts]
+map-server = "map_server.server:main"
+map-server-ui = "map_server.ui:main"
+
+[tool.setuptools.packages.find]
+include = ["map_server*"]
+

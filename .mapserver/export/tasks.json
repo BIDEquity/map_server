@@ -1,0 +1,47 @@
+{
+  "generated_at": "2025-09-11T18:51:33.944241",
+  "strategy": "domains",
+  "task_count": 5,
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Set up authentication module",
+      "description": "Implement user authentication and authorization",
+      "priority": "high",
+      "status": "pending",
+      "domain": "auth"
+    },
+    {
+      "id": 2,
+      "title": "Create API endpoints",
+      "description": "Design and implement RESTful API endpoints",
+      "priority": "high",
+      "status": "pending",
+      "domain": "api"
+    },
+    {
+      "id": 3,
+      "title": "Design data models",
+      "description": "Create database schemas and entity models",
+      "priority": "high",
+      "status": "pending",
+      "domain": "data"
+    },
+    {
+      "id": 4,
+      "title": "Build UI components",
+      "description": "Develop frontend user interface components",
+      "priority": "medium",
+      "status": "pending",
+      "domain": "ui"
+    },
+    {
+      "id": 5,
+      "title": "Implement business logic",
+      "description": "Code core business rules and workflows",
+      "priority": "high",
+      "status": "pending",
+      "domain": "business"
+    }
+  ]
+}

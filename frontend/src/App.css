@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.App pre {
+  text-align: left;
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
